@@ -1,0 +1,6 @@
+Access specifiers control who can access variables, methods, or classes.
+
+types
+public
+private
+protected

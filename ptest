@@ -1,0 +1,19 @@
+include <stdio.h>
+
+// Function to print even numbers up to a given limit
+void printEvenNumbers(int limit) {
+for (int i = 1; i <= limit; i++) {
+if (i % 2 == 0) {
+printf("%d ", i);
+}
+}
+}
+
+int main() {
+int limit = 30;
+
+printf("Even numbers up to %d are:\n", limit);
+printEvenNumbers(limit);
+
+return 0;
+}
